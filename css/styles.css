@@ -1,0 +1,60 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: #2d3c49;
+}
+
+.navbar {
+  border-color: #101010;
+  margin-left: 0.5px;
+  margin-right: 0.5px;
+}
+
+.logo {
+    width:70px;
+    margin-top:20px;
+}
+
+.name {
+    font-weight: 300;
+    font-size: 56px;
+}
+
+.featuredimg {
+    min-height: 360px;
+}
+
+@media screen and (min-width: 361px) and (max-width: 768px) {
+    .name {
+        font-size: 36px;
+    }
+    .logo {
+        width:70px;
+        margin-top:20px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .name {
+        font-size: 26px;
+    }
+    .logo {
+        width:50px;
+        margin-top:30px;
+    }
+}
+
+.featured{
+    color: #2d3c49;
+    margin-left: 10px;
+}
+
+.icons {
+    line-height: 8;
+}
